@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+:root{
+    --primary-color:#92400E;
+}
+
+body{
+    font-family: 'Hina Mincho', serif;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color:white;
+}
+
+.navigation{
+    margin:3rem 0;
+    margin-top: 1rem;
+    width:100%;
+}
+
+.navigation img{
+    display: block;
+    width:300px;
+    height:200px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#txtInput{
+    font-family: inherit;
+    font-size: large;
+    font-weight: bold;;
+    display:block;
+    margin:auto;
+    width:60%;
+    height:15vh;
+    border-radius: 10px;
+    padding:1rem;
+    color: var(--primary-color);
+    
+}
+
+main p{
+    text-align: center;
+    font-size: large;
+}
+
+#btn-translate{
+    display: block;
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+    margin:auto;
+    margin-top:2rem;
+    border-radius:10px;
+    margin-bottom:1rem;
+    font-size: large;
+}
+
+.outputDiv{
+    width : 60%;
+    height:15vh;
+    border-radius: 10px;;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 1rem;;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+}
+
+.footer .footer-heading{
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+.footer p{
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    font-size: large;
+}
